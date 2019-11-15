@@ -79,7 +79,7 @@ try {
         crctAnswer.add(corectanswer);
 
         JSONArray jsonArray=singleResultObj.getJSONArray("incorrect_answers");
-
+stringArray.clear();
        // JSONArray jsonArray = new JSONArray();
         for(int p = 0, count = jsonArray.length(); p< count; p++)
         {
